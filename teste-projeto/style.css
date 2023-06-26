@@ -1,0 +1,69 @@
+@media screen {
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Arial", "Helvetica", sans-serif;
+
+}
+
+header h3 {
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid #169476;
+}
+
+#iniciais {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-bottom: 2px solid #169476;
+}
+
+/*como deixar o menu dentro (ou na mesma linha) que a header?*/
+menu ul {
+  list-style: none;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+/*sera que o tamanho do menu tambem esta muito grande para a tela?*/
+menu li {
+  display: inline-block;
+  padding: 10px;
+  color: #169476;
+}
+
+.nome-artistico {
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+/* configuraçao "Bailarina" nao funciona*/
+.profissao {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+/* como adaptar o background ao texto?*/
+main {
+  background-color: #169477;
+  background-size: 0 11px;
+  margin: 20px 11px;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+article {
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+#titulo {
+  color: white;
+}

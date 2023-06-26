@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.barra-superior {
+
+border: 1px solid #3fa794;
+}
+img "Myllena" {
+ padding: 25px;
+    margin: 25pxS;
+}
+button {
+background-color: #3FA794;
+}
+.search
